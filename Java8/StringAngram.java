@@ -13,7 +13,8 @@ public class StringAngram {
 
     private static Boolean checkAnagram(String input, String input1) {
         List<String> list = new ArrayList<>();
-        return input.chars().mapToObj(e -> (char) e).sorted().toList().equals(input1.chars().mapToObj(e -> (char) e).sorted().toList());
+        return input.chars().mapToObj(e -> (char) e).sorted().toList().
+                equals(input1.chars().mapToObj(e -> (char) e).sorted().toList());
     }
 
 }
