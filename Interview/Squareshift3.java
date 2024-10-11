@@ -1,3 +1,5 @@
+package DataStructure.Interview;
+
 import java.util.Arrays;
 
 public class Squareshift3 {

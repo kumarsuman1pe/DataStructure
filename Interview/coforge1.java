@@ -1,3 +1,4 @@
+package DataStructure.Interview;
 
 public class coforge1 {
 

@@ -1,3 +1,5 @@
+package DataStructure.Interview;
+
 public class SGAnalytics {
     public static void main(String[] args) {
         LinkedList head= new LinkedList(1);

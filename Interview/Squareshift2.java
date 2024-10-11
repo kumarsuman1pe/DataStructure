@@ -1,3 +1,5 @@
+package DataStructure.Interview;
+
 import java.util.Stack;
 
 public class Squareshift2 {
