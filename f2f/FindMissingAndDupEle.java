@@ -1,10 +1,8 @@
 package DataStructure.f2f;
 
-import java.util.Arrays;
-
-public class FindSingleMissingEle1ToNProblem {
+public class FindMissingAndDupEle {
     public static void main(String[] args) {
-        int input[]={5,4,2,1,6,7,4,8};
+        int input[]={5,4,2,1,6,1,4,8};
         findSingleMissingAndDuplicateEle(input);
     }
 
