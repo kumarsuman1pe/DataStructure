@@ -1,18 +1,19 @@
 package DataStructure.f2f;
 
 public class FindSingleMissingEle {
-    static int[] input = { 5,4,2,1,6,1,4,8};
+    static int[] input = { 5, 4, 2, 1, 6, 1, 4, 8 };
 
     public static void main( String[] args ) {
-        swapSort( 5 );
-        printMissingAndDuplicateEle(input);
+        // swapSort( 5 );
+        swapSortV1( 5 );
+        printMissingAndDuplicateEle( input );
     }
 
     private static void printMissingAndDuplicateEle( int[] input ) {
         for ( int i = 0; i < input.length; i++ ) {
-            if(input[i]!=i+1){
-                System.out.print("Duplicate Ele: "+input[i] );
-                System.out.println(" Missing Ele: "+ (i+1) );
+            if ( input[i] != i + 1 ) {
+                System.out.print( "Duplicate Ele: " + input[i] );
+                System.out.println( " Missing Ele: " + ( i + 1 ) );
             }
         }
     }
@@ -25,11 +26,22 @@ public class FindSingleMissingEle {
         }
     }
 
+    private static void swapSortV1( int n ) {
+        int i = 0;
+        while ( i < n ) {
+            if ( input[i] != input[input[i] - 1] ) {
+                swap( i );
+            } else {
+                i++;
+            }
+        }
+    }
+
     private static void swap( int i ) {
-       //{ 2, 5, 3, 1, 2 };
+        //{ 2, 5, 3, 1, 2 };
         int temp = input[i];
-        int temp2=input[input[i] - 1];
-        input[i] =temp2;
-        input[temp-1] = temp;
+        int temp2 = input[input[i] - 1];
+        input[i] = temp2;
+        input[temp - 1] = temp;
     }
 }
