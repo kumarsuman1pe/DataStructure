@@ -28,6 +28,7 @@ public class FindMultipleMissingElement {
 		int diff = list[0];
 		System.out.println("Missing Elements are!...");
 		int missedEle = 0;
+		//{ 3, 6, 7, 9, 15 };
 		for (int i = 0; i < list.length; i++) {
 			if (diff != list[i] - i) {
 				missedEle = i + diff;

@@ -24,7 +24,6 @@ public class GL {
 
             // Use Arrays.stream() for primitive arrays
             IntSummaryStatistics stats = Arrays.stream(arr).summaryStatistics();
-            IntSummaryStatistics stats1 = Stream.of(arr).summaryStatistics();
 
             int max = stats.getMax();
             System.out.println("Max value: " + max);
