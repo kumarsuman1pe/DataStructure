@@ -1,4 +1,4 @@
-package DataStructure.Interview.rakuten;
+package DataStructure.Interview.com.rakuten;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package DataStructure.Interview.rakuten;
+package DataStructure.Interview.com.rakuten;
 
 public class PrintEvenAndOddFromList {
 

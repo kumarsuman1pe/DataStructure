@@ -5,8 +5,8 @@ public class Test2 {
 	public static void main(String[] args) {
 		
 		//Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
-		//   input: {0,1,2,1,0,2,0,1}, N=8
-		//o/p:0,0,0,1,1,1,2,2
+		// input: {0,1,2,1,0,2,0,1}, N=8
+		//o/p: 0,0,0,1,1,1,2,2
 		int []input= {0,1,2,1,0,2,0,1};
 		int  n=8;
 		int res[]=new int[n];
